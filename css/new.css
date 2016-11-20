@@ -1,0 +1,173 @@
+*{ margin:0; padding:0;}
+li{ list-style:none;}
+a{ text-decoration:none; color:#000;}
+img{ border:0 none; vertical-align:top;}
+input,select{ outline:none;}
+input,button{ cursor:pointer; -webkit-appearance:none;}
+html{ font-size: 625%; height:100%;}
+body{ font-size:0.24rem; font-family:"微软雅黑"; max-width:640px; min-width:320px; margin:0 auto; height: 100%;}
+.clearfix{ *zoom:1;} 
+.clearfix:after{ content:"."; height:0; clear:both; visibility:hidden; display:block; font-size:0px;}
+
+/*1*/
+.all{height:100%; width:100%;}
+.content{height:100%; width:100%;}
+
+.first-jianli{display:block; width:70%; height:10%;text-align: center; margin:0 auto 0 auto; padding-top:30%;-webkit-animation:jldonhua 1.4s linear;}
+@-webkit-keyframes jldonhua{
+	0%{ width:70%; height:10%;}
+	30%{ width:70%; height:10%;}
+	80%{ width:90%; height:15%;}
+	100%{ width:70%; height:10%;}
+}
+.first-tou{display: block; width:30%; height:16%;position:absolute; left:35%; top:40%;}
+
+.first-name{text-align: center;color:#fff;position:absolute; left:35%; top:70%; width:30%; text-align: center;}
+.ico{display:block; position:absolute; left:46.5%; top:80%; text-align: center; font-weight: bold;color: #fff; -webkit-animation: icodonhua 1.2s linear infinite;}
+@-webkit-keyframes icodonhua{
+	0%{color: #fff;}
+	50%{color: #000;}
+	100%{color: #fff;}
+}
+/*2*/
+
+.sencond-name{width:75%; height:0.9rem; background: #e5b925; border-radius: 0.4rem; margin-left:0rem; padding-top:0.05rem; margin-top:0.5rem;}
+@-webkit-keyframes namedonhua{
+	0%{margin-left:-0.6rem;}
+	50%{margin-left:-0rem;}
+	100%{margin-left:-0.6rem;}
+}
+.sencond-name h5{ margin:0.1rem 0 0 20%;display: block; font-size:0.3rem; font-weight:550; color:#fff;}
+.sencond-name span{margin-left:20% ;display: block; font-size:0.2rem; font-weight:500; color:#fff;}
+.sencond-school{width:60%; height:0.8rem;  margin-top:0.2rem; background: #ef3131; border-radius: 0.35rem; margin-left:0rem; padding-top:0.05rem;
+}
+
+.sencond-school h5{ margin:0.08rem 0 0 21%;display: block; font-size:0.27rem; font-weight:550; color:#fff;}
+.sencond-school span{margin-left:21% ;display: block; font-size:0.19rem; font-weight:500; color:#fff;}
+.sencond-from{width:50%; height:0.7rem;  margin-top:0.2rem; background: #e5b925; border-radius: 0.3rem; margin-left:0rem; padding-top:0.05rem;
+}
+
+.sencond-from h5{ margin:0.06rem 0 0 22%;display: block; font-size:0.22rem; font-weight:550; color:#fff;}
+.sencond-from span{margin-left:22% ;display: block; font-size:0.15rem; font-weight:500; color:#fff;}
+.second-rocket{ width:25%; height:2rem; position: absolute; left:60%; bottom: -2rem;-webkit-animation: rocketdonhua 2.9s linear infinite;}
+@-webkit-keyframes rocketdonhua{
+	0%{ bottom: -2rem;}
+	100%{ bottom:100%;}
+}
+.second-yun{width:100%; height:10%; position: absolute; left: 0; bottom: 0;}
+.second-zhong{width:1.42rem; height:1.63rem; position: absolute; left: 10%; bottom: 10%; background: url(../img/zhong.png) no-repeat;}
+.second-zhen{margin:0.56rem 0 0 0.48rem;-webkit-animation: zhendonhua 1.3s linear infinite; transform: rotate(0deg); transform-origin: 50% 50%;}
+@-webkit-keyframes zhendonhua{
+	0%{ transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+/*3*/
+
+.skills{width:53%; height:29%; position: absolute; left:26%; top:60%;}
+.tube{width:8%; height:17%; border-radius: 0 0 0.5rem 0.5rem; position: absolute; left:16%; top:13%; border: 0.05rem #fff solid;}
+.water{width:100%; height:65%; background: dodgerblue; position: absolute; left:0; top:35%;  border-radius: 0 0 0.5rem 0.5rem;}
+.waterbg{ position: absolute; left:0; top:35%;}
+.langdown{width:0.06rem; height:0.06rem; background: dodgerblue; border-radius: 50%; float: left; margin-top:-0.035rem;-webkit-animation: waterdowndonhua 2s linear infinite;}
+@-webkit-keyframes waterdowndonhua{
+	0%{margin-top:-0.03rem;}
+	50%{margin-top:0;}
+	100%{margin-top:-0.03rem;}
+}
+.langup{width:0.069rem; height:0.069rem; background: dodgerblue; border-radius: 50%; float: left; margin-top:0;-webkit-animation: waterupdonhua 2s linear infinite;}
+@-webkit-keyframes waterupdonhua{
+	0%{margin-top:0rem;}
+	50%{margin-top:-0.03rem;}
+	100%{margin-top:0rem;}
+}
+.tube1 h5{color:#fff; font-size: 0.15rem; position: absolute; left: -0.22rem; bottom:-0.25rem;}
+.tube2{ left:36%; top:13%;}
+.tube2 .water{width:100%; height:90%; left:0; top:10%;}
+.tube2 .waterbg{ position: absolute; left:0; top:10%;}
+.tube2 h5{color:#fff; font-size: 0.15rem; position: absolute; left: -0rem; bottom:-0.25rem;}
+.tube3{ left:56%; top:13%;}
+.tube3 .water{width:100%; height:90%; left:0; top:10%;}
+.tube3 .waterbg{ position: absolute; left:0; top:10%;}
+.tube3 h5{color:#fff; font-size: 0.15rem; position: absolute; left: 0.05rem; bottom:-0.25rem;}
+.tube4{ left:76%; top:13%;}
+.tube4 .water{width:100%; height:70%; left:0; top:30%;}
+.tube4 .waterbg{ position: absolute; left:0; top:30%;}
+.tube4 h5{color:#fff; font-size: 0.15rem; position: absolute; left: -0.19rem; bottom:-0.25rem;}
+.three-power{font-size: 0.36rem; position: absolute; left:33%; top:45%; color: #fff;}
+
+/*4*/
+.personzp{position: absolute; left:32%; top:7%; color:#fff; font-size: 0.36rem;}
+.boll{width:1.15rem; height:1.15rem; background: #529ab0; padding: 0.05rem 0 0 0.05rem;border-radius: 50%; position:absolute;}
+.boll-inside{width:1.06rem; height:1.06rem; background: #529ab0;border-radius: 50%;  border:0.02rem #fff dashed;-webkit-animation: bolldonhua 7s linear infinite;transform: rotate(0deg);}
+@-webkit-keyframes bolldonhua{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+.huizhong{width:1rem; height: 1rem; border-radius: 50%; left:0.1rem; top:0.1rem; position: absolute;}
+.boll p{position: absolute; left:0; bottom:-0.2rem; font-size: 0.15rem; color: #fff; width:100%; text-align: center; font-weight: 600;}
+.xian{position: absolute; left:49%; top:18%;}
+.xian-qiu{width:0.17rem; height:0.17rem; border-radius: 50%; background: #fff;}
+.xian-main{width: 0.09rem; height:4.8rem; background: #fff;margin:-0.09rem 0 0 0.04rem;}
+.boll1{left:0.1rem; top:23%;}
+.xian1{width:19%; height:0.09rem; background: #fff; position: absolute; top:31%; left:31.5%;}
+.boll2{right:0.1rem; top:40%;}
+.xian2{width:19%; height:0.09rem; background: #fff; position: absolute; top:47.5%; left:50.5%;}
+.boll3{left: 0.1rem; top:55%;}
+.xian3{width:19%; height:0.09rem; background: #fff; position: absolute; top:63%; left:31.5%;}
+.boll4{right:0.1rem; top:71%;}
+.xian4{width:19%; height:0.09rem; background: #fff; position: absolute; top:79%; left:50.5%;}
+/*5*/
+.hobby{font-size: 0.35rem; position: absolute;left:35%; top:46%;width:1.4rem; height:0.26rem;}
+.lanqiu{width:1.1rem; height: 1.1rem;-webkit-animation: lqdonhua 2s linear infinite; z-index: 3;position: absolute; left:0.1rem; top:5%;}
+@-webkit-keyframes lqdonhua{
+	0%{transform: rotate(0deg);top:5%;}
+	50%{transform: rotate(360deg); top:15%;}
+	100%{transform: rotate(720deg);top:5%;}
+}
+.lq-shadow{width:0.9rem; height:0.25rem; border-radius: 50%;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#CCCCCCCC', endColorstr='#CCCCCCCC');background:rgba(204,204,204,0.8); position: absolute; left:0.17rem; top:29%;}
+.lanqiu-text{position: absolute; left:0.4rem; top:0.1rem;}
+.gm{width:1.2rem; height:0.9rem;position: absolute; right:0.1rem; top:27%;-webkit-animation: gmdonhua 3s linear infinite;}
+@-webkit-keyframes gmdonhua{
+	0%{width:1.2rem; height:0.9rem;}
+	50%{width:1.3rem; height:1rem;}
+	100%{width:1.2rem; height:0.9rem;}
+}
+.gm-text{position: absolute; right:0.37rem; top:21%;}
+.music{position: absolute;left:0.5rem; bottom: 14%;}
+.erji-text{position: absolute;left:0.2rem;top:-0.33rem;}
+.erji{width:1.1rem; height:1.4rem;}
+.yinfu{width: 0.15rem; height:0.3rem; position: absolute; right:-0.2rem; top:0;-webkit-animation: yfdonhua 1s linear infinite;}
+@-webkit-keyframes yfdonhua{
+	0%{width: 0.15rem; height:0.3rem; right:-0.2rem; top:0;}
+	100%{width: 0.1rem; height:0.2rem; right:-0.3rem; top:-0.1rem;}
+}
+.yinfu2{width: 0.15rem; height:0.3rem; position: absolute; left:-0.2rem; bottom:0;-webkit-animation: yf2donhua 1s linear infinite;}
+@-webkit-keyframes yf2donhua{
+	0%{width: 0.15rem; height:0.3rem; left:-0.2rem;bottom:0;}
+	100%{width: 0.1rem; height:0.2rem; left:-0.3rem; bottom:-0.1rem;}
+}
+.book{ width:1.3rem; height:1.3rem; position: absolute; right:0.1rem; bottom: 0.25rem;}
+.book-text{ position: absolute; right:0.4rem; bottom: 1.59rem;}
+/*6*/
+.lianxi{font-size:0.36rem; width:40%; height:0.32rem; color:#fff; position:absolute; text-align: center; left:30%; top:20%;}
+
+.lx-content{ position: absolute; left:20%; top:40%; color:#fff; font-size:0.26rem;}
+.lx-content li{margin-top:0.2rem;}
+.address{font-size: 0.22rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
